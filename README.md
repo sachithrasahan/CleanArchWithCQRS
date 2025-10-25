@@ -10,16 +10,16 @@ This project is a sample implementation of a Clean Architecture Web API built us
 
 ---
 
-## Architecture Overview
+## Project Structure
 
 📦 src
-├── 🌐 API (Presentation Layer)
-│ └── Controllers, Dependency Injection, Swagger
-├── 📦 Application (Core Business Logic)
-│ ├── CQRS (Commands + Queries + Handlers)
-│ └── Interfaces, DTOs
-├── 🧠 Domain (Entities)
-└── 🗄️ Infrastructure (In-Memory Repository)
+ ├── 🌐 API (Presentation Layer)
+ │    └── Controllers, Dependency Injection, Swagger
+ ├── 📦 Application (Core Business Logic)
+ │    ├── CQRS (Commands + Queries + Handlers)
+ │    └── Interfaces, DTOs
+ ├── 🧠 Domain (Entities)
+ └── 🗄️ Infrastructure (In-Memory Repository)
 
 
 ---
