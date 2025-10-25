@@ -12,6 +12,7 @@ This project is a sample implementation of a Clean Architecture Web API built us
 
 ## Project Structure
 
+```
 📦 src
  ├── 🌐 API (Presentation Layer)
  │    └── Controllers, Dependency Injection, Swagger
@@ -20,7 +21,7 @@ This project is a sample implementation of a Clean Architecture Web API built us
  │    └── Interfaces, DTOs
  ├── 🧠 Domain (Entities)
  └── 🗄️ Infrastructure (In-Memory Repository)
-
+ ```
 
 ---
 
